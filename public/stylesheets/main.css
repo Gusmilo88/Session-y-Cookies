@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+.main__div{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 25px;
+    padding: 50px;
+}
+
+.main__div--name, .main__div--colores, .main__div--mail, .main__div--edad{
+    margin: 10px;
+    padding: 10px;
+}
+
+.main__div--enviar{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.main__div--enviar button{
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+
+}
